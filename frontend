@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: Arial;
+  padding: 10px;
+  background: #0a0a0a00;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+
+  border: 2px solid black;
+}
+
+.header h1 {
+  font-size: 50px;
+  font-family: BRUSH SCRIPT 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: azure;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: grey;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ec0b0b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(249, 246, 246);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>JAMES ANDREW  </h1>
+  <p>FLIGHT SIMULATION ENGINEER</p>
+</div>
+
+<div class="topnav">
+  <a href= "resume.html">View My Resume</a>
+  <a href="education.html">Education</a>
+  <a href="#" style="float:right">Hire me</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Job description</h2>
+      <h5>Worked as a FSE for Pilatus PC-7 MK-II simulator and Elite Simulators 
+        all over India.</h5>
+      <div class="fakeim" style="height:500px;">
+        <img src="C:\Users\james\OneDrive\Desktop\PC-7 MkII India Air Force Switzerland.jpg" float="right" height="460px" width="835px">
+        </div>
+      <p>SRK Aviacom Pvt. Ltd., New Delhi FEB 2020 – MAR 2024</p>
+      <p>Flight Simulator Engineer</p>
+      <p>   Maintaining and repairing all types of Elite simulators all over India.
+        <p> Assembling of Control Loading systems, Power Distribution Unit and 
+        other simulation systems.</p>
+        <p> Conducting routine inspections, checks, and maintenance tasks to 
+        keep the simulator systems in optimal condition</p>
+        <p> Troubleshooting the systems to identify the root cause of the 
+        problem.</p>
+        <p> Managing software updates and upgrades for the simulator systems</p>
+        <p> Calibrating the simulator systems regularly to ensure accuracy and 
+        consistency in simulation results.</p>
+        <p> Following the Calibration procedures for sensors, instruments, and 
+        motion systems, and conduct testing to verify that the simulator 
+        meets specified performance criteria.</p>
+        <p> Maintaining comprehensive records of maintenance activities, 
+        repairs, modifications, and inspections performed on the simulator 
+        systems.</p>
+        <p> Analyzing the problems, identifying root causes, and implementing 
+        effective solutions.</p>
+        <p> Responding quickly and effectively to minimize downtime and 
+        ensure the safety of personnel and equipment</p>
+    </div>
+    <div class="card">
+      <h2>HOBBY</h2>
+      <h5>TO RIDE BIKE AND TO EXPLORE NEW PLACES</h5>
+      <div class="fakeim" style="height:500px;">
+      <image src="C:\Users\james\OneDrive\Desktop\20200925000113_IMG_8059_1.JPG" height="470px" width="830px"></image>
+      </div>
+      <p style="color: blue;">Two wheels,one love</p>
+      <p>Riding my bike is more than just a means of transportation; it's a gateway to adventure and discovery. There's a unique joy that comes with the freedom of two wheels, the wind against my face, and the ever-changing scenery as I pedal through new terrains. Each journey is a story waiting to unfold, with the road stretching out like the opening paragraph of an unwritten chapter. Whether it's the quiet countryside or the bustling city streets, my bike is my faithful companion as I explore the world around me, one ride at a time.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeim" style= "height:200px;">
+      <image src="C:\Users\james\OneDrive\Desktop\24060BA0091.jpg" float="center"height="200px" width="200px"></image>
+      </div>
+      <p>DOB:27-05-1998</p>
+      <p>Blood group:o+</p>
+      <p>Marital status:Single</p>
+      <p>Place:Kodaikanal</p>
+    </div>
+    <div class="card">
+      <h3>Skills</h3>
+      <div class=""></div>
+      <image src="C:\Users\james\OneDrive\Desktop\WhatsApp Image 2024-05-18 at 00.13.14_311360e6.jpg" float="center" height="320px" width="250px"></image>
+      <div class=""><p>PYTHON</p></div>
+      <div class=""><p>HTML</p></div>
+      <div class=""><p>CSS</p></div>
+      <div class=""><p>REACT JS</p></div>
+      <div class=""><p>DJANGO</p></div>
+    </div>
+    <div class="card">
+      <h3>Contact</h3>
+      <a href="https://wa.me/7339392562" target="_blank">
+        <img src="C:\Users\james\OneDrive\Desktop\frontend files\whatsapp-logo-png-2261.png" alt="WhatsApp" class="logo" height="50px">
+      </a>
+      <a href="https://www.linkedin.com/in/james-andrew-48a074231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+        <img src= "C:\Users\james\OneDrive\Desktop\frontend files\linkedin-logo-png-1854.png" alt="LinkedIn" class="logo" height="50px">
+      </a>
+      <a href="https://www.instagram.com/mr_smile_hacker" target="_blank">
+        <img src="C:\Users\james\OneDrive\Desktop\frontend files\2227.jpg" alt="Instagram" class="logo" height="50px">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
